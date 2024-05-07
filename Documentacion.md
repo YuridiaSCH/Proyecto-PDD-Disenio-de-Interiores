@@ -1,8 +1,12 @@
 ![image](https://github.com/YuridiaSCH/Proyecto-PDD-Disenio-de-Interiores/assets/124212145/2901482b-d759-4a78-8918-db6649d403ed)
 ![image](https://github.com/YuridiaSCH/Proyecto-PDD-Disenio-de-Interiores/assets/124212145/3fd52f91-1b9f-4213-bfac-b792671083bb)
 
+![image](https://github.com/YuridiaSCH/Proyecto-PDD-Disenio-de-Interiores/assets/124212145/2ad9b343-60b6-41b4-8480-2031a44175dd)
+
 ## 📌 Objetivo.
 Implementar una aplicación  que permita a los usuarios diseñar y visualizar interiores de manera interactiva.
+
+![image](https://github.com/YuridiaSCH/Proyecto-PDD-Disenio-de-Interiores/assets/124212145/e031b80b-d24b-4477-acab-d96c00d61911)
 
 ## ✅ Aspectos positivos.
 - ***📍 Funcional.*** El sistema realizado permite realizar las opciones de; instanciar objetos, y a los mismos rotarlos, cambiar su tamaño y cambiar su posición. 
@@ -17,6 +21,9 @@ Implementar una aplicación  que permita a los usuarios diseñar y visualizar in
 - ***⌨️ Limitaciones de uso.*** La aplicación estuvo planeada para utilizar tenologias inmersivas, sin embargo debido al poco tiempo, no se puedo llevar acabo de dicha forma, sin embargo sigue siendo funcional para diseñar interiores.
 
 ## ⚙️ Herramientas utilizadas.
+
+![image](https://github.com/YuridiaSCH/Proyecto-PDD-Disenio-de-Interiores/assets/124212145/1b37fd1c-462c-465f-bf1c-0838549b83b6)
+
 ### 🗂️ Plataforma Unity Y Patrón Command.
 - La estructura que brinda Unity es un poco intuitiva y semi-sencilla de asimilar en su uso, y brillante para obtener assets de muebles (Furnitures).
 
@@ -25,6 +32,9 @@ Implementar una aplicación  que permita a los usuarios diseñar y visualizar in
 - La razon para el uso del patron command dentro del sistema fue encapsula la acción de colocar un objeto en una posición determinada en función de los parámetros proporcionados, por lo que se utiliza un diccionario para almacenar los comandos asociados a teclas específicas para instanciar los muebles y cuando se presiona una tecla, se busca el comando correspondiente en el diccionario y se ejecuta.
 
 ### 💻 Lenguaje de programación c#.
+
+![image](https://github.com/YuridiaSCH/Proyecto-PDD-Disenio-de-Interiores/assets/124212145/5021bb20-b763-43a2-95c9-8bd081cfc052)
+
 ***🖋️ Código*** donde se empleo el patrón de diseño.
 ```csharp
 using UnityEngine;
@@ -210,6 +220,9 @@ public class InstanciarObjeto : MonoBehaviour
 ```
 
 ## 💾 Conclusión.
+
+![image](https://github.com/YuridiaSCH/Proyecto-PDD-Disenio-de-Interiores/assets/124212145/beea0361-ec95-4903-ae20-c68edcd42a82)
+
 Se comprendió el uso de diferentes tipos de patrones, ya sea de manera directa e indirecta, de tal modo que estas herramientas pueden ahorrar mucho trabajo sin alterar código, permitiendo el uso factible de estos y dandole una estructura organizada y simple al proyecto en ciertas áreas del código.
 
 Se tiene como ejemplo de usos de patrones inderectos tales como:
